@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+}
+
+#acao{
+    margin-right: 1500px;
+    cursor: pointer;
+  }
+  
+  #inicio{
+    display: flex;
+    align-items: center
+  }
+
+  h4{
+    color: #161922;
+  }
+
+  #logo{
+    overflow: hidden;
+ }
+ 
+ #logo{
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+ }
+ 
+ #logo:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+ }

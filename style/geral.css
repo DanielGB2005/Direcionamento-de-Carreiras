@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box; 
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    padding: 20px;
+    background-color: #161922;
+  }
+  
+  p{
+     font-size: larger;
+     text-align: justify;
+     color:white;
+  }
+
+  link{
+    cursor: pointer;
+  }
+  
+  a:visited{
+      color:purple;
+  }
+  
+  a:hover{
+    color:black;
+  } 
+  
+  #primeira{
+    padding: 15px;
+    background-color:rgb(48, 172, 131);
+    border-radius:10px;
+    font-size: xx-large;
+  }
+  
+  div, #lk{
+    text-align: center;
+  }
+  
+  #menu ul{
+    margin: 0px;
+    list-style: none;
+  }
+  
+  #menu ul li{
+    display: inline;
+  }
+  
+  #menu ul li a{
+    padding: 20px 10px;
+    display: inline-block;
+    color: beige;
+    text-decoration: none;
+  
+  }
+  
+  #menu ul li a:hover{
+    background-color: #161922;
+    color: rgb(48, 172, 131);
+    cursor: pointer; 
+  }
+  
+  li{
+    font-size: large;
+  }
+  
+  li a:hover {
+    transition: 700ms;
+  }
+
+  .boneco{
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .resposta{
+    display: inline-block;
+    width: 600px;
+    height: 100px;
+  }
+
+  h1, h2{
+    color: rgb(48, 172, 131);
+  }
+
+  ol{
+    color: white;
+  }
+
+  @media screen and (min-width: 520px) {
+
+    #hamb {
+      display: none;
+    }
+  
+  }
+
+  @media screen and (max-width:520px){
+
+    #logo{
+      width: 100%;
+    }
+
+  }
+
+  .topo{
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .topo a:hover{
+     color: rgb(48, 172, 131);
+  }
+  
+  .topo a{
+    margin-right: 30px;
+    color:white;
+    text-decoration: none;
+  }

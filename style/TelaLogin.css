@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box; 
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    padding: 20px;
+    background-color: #161922;
+  }
+
+  input{
+    margin-top: 20px;
+  }
+
+ h3{
+     color: rgb(48, 172, 131);
+ } 
+
+ label{
+     color:white;
+ }

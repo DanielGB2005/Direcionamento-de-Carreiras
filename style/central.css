@@ -1,0 +1,239 @@
+* {
+  box-sizing: border-box; 
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+ background-color: #161922;;
+ background-position: 55%;
+ padding: 20px;
+}
+
+p{
+ font-size: larger;
+ text-align: justify;
+ margin-left: 50px;
+ margin-right: 50px;
+ color: white;
+}
+
+#retornar{
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 17px;
+  font-weight: bold;  
+  cursor: pointer;
+}
+
+a:link{
+  color: black;
+  text-decoration: none;
+}
+
+a:visited{
+  color:rgb(48, 172, 131);
+}
+
+a:hover{
+color: rgb(48, 172, 131);
+} 
+
+#primeira{
+padding: 15px;
+background-color:rgb(48, 172, 131);
+border-radius:10px;
+font-size: xx-large;
+}
+
+#lk{
+  margin-top: 35px;
+}
+
+div{
+text-align: center;
+}
+
+h1, h3{
+  color:rgb(48, 172, 131);
+}
+
+h3{
+   margin-left: 100px;
+}
+
+#menu ul{
+margin: 0px;
+list-style: none;
+border-radius: 10px;
+}
+
+#menu ul li{
+display: inline;
+}
+
+#menu ul li a{
+padding: 20px 10px;
+display: inline-block;
+color: beige;
+text-decoration: none;
+
+}
+
+#menu ul li a:hover{
+  background-color: #161922;
+  color: rgb(48, 172, 131);
+  cursor: pointer; 
+}
+
+li{
+font-size: large;
+}
+
+#personagem{
+ text-align: left;
+ margin-top: 50px;
+}
+
+.imagem{
+border-radius: 20px;
+}
+
+.topo{
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.topo a:hover{
+   color: rgb(48, 172, 131);
+}
+
+.topo a{
+  margin-right: 30px;
+  color:white;
+}
+
+/* Style Card */
+
+main.cards {
+display: flex;
+padding: 32px;
+font-size: larger;
+}
+
+main.cards section.card {
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+background: white;
+padding: 1rem 1.5rem;
+border-radius: 8px;
+max-height: 468px;
+margin-left: 32px;
+}
+
+main.cards section.card:first-child {
+margin-left: 0;
+}
+
+main.cards section.card .icon {
+width: 64px;
+height: 64px;
+}
+
+main.cards section.card img {
+width: 100%;
+}
+
+main.cards section.card h3 {
+font-size: 100%;
+margin: 16px 0;
+}
+
+main.cards section.card span {
+font-weight: 300;
+max-width: 240px;
+font-size: 80%;
+margin-bottom: 16px;
+}
+
+main.cards section.card button {
+padding: 0.5rem 1rem;
+text-transform: uppercase;
+border-radius: 32px;
+border: 0;
+cursor: pointer;
+font-size: 80%;
+font-weight: 500;
+color: #fff;
+margin-bottom: 16px 0;
+}
+
+main.cards section.card.contact button {
+background: linear-gradient(to right, #9F66FF, #DFCBFF);
+}
+main.cards section.card.shop button {
+background: linear-gradient(to right, #3E8AFF, #BBDEFF);
+}
+main.cards section.card.about button {
+background: linear-gradient(to right, #FE5F8F, #FFC7D9);
+}
+
+main.cards section.card.contact {
+box-shadow: 20px 20px 50px -30px #DBC4FF;
+}
+main.cards section.card.shop {
+box-shadow: 20px 20px 50px -30px #AFD6FF;
+}
+main.cards section.card.about {
+box-shadow: 20px 20px 50px -30px #FFC1D5;
+}
+
+@media screen and (max-width: 720px) {
+main.cards {
+    flex-direction: column;
+}
+
+main.cards section.card {
+    margin-left: 0;
+    margin-bottom: 32px;
+}
+
+main.cards section.card:last-child {
+    margin-bottom: 0;
+}
+
+main.cards section.card button {
+    font-size: 70%;
+}
+
+}
+
+main{
+  background-color: rgb(48, 172, 131);
+}
+
+@media screen and (min-width: 520px) {
+
+  #hamb {
+    display: none;
+  }
+}
+
+@media screen and (max-width:520px){
+
+  #logo{
+    width: 100%;
+  }
+
+  #imgCarreiras{
+    width: 310px;
+    height: 180px;
+  }  
+
+  h3{
+    margin-right: 140px;
+  }
+
+}

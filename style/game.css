@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.game-board{
+    width: 80%;
+    height: 500px;
+    border: 1px solid black;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.pilha{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    animation: pilha-animation 2s infinite linear;
+}
+
+@keyframes pilha-animation{
+    from{
+       right: -80px;
+    }
+
+    to{
+       right: 100%;
+    }
+}
+
+.matheus{
+    position: absolute;
+    bottom: -15px;
+   
+}
+
+.jump{
+    animation: jump 500ms ease-out;
+}
+
+@keyframes jump {
+    0%{
+    bottom: -15px;
+    }
+
+    40%{
+    bottom: 85px;
+    }
+
+    50%{
+    bottom: 85px;
+    }
+
+    60%{
+    bottom: 85px;
+    }
+
+    100%{
+    bottom: -15px;
+    }
+}

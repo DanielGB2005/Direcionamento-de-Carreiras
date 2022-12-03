@@ -1,0 +1,18 @@
+
+#procurar, #buscador{
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#procurar{
+    cursor: pointer;
+}
+
+#procurar:hover{
+    color: rgb(48, 172, 131);
+    border: 2px solid rgb(48, 172, 131);
+}

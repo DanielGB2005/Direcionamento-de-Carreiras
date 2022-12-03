@@ -1,0 +1,119 @@
+*{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+  background-color: #161922;
+  padding: 20px;
+}
+
+.topo{
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.topo a:hover{
+   color: rgb(48, 172, 131);
+}
+
+.topo a{
+  margin-right: 30px;
+  color:white;
+  text-decoration: none;
+}
+
+h2{
+    text-align: center;
+    color:rgb(48, 172, 131);
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#bts{
+   text-align: right;
+}
+
+button{
+    margin: 2px 2px 20px 2px;
+}
+
+
+#primeira{
+    padding: 15px;
+    background-color:rgb(26, 170, 122);
+    border-radius:10px;
+    font-size: xx-large;
+  }
+  
+  div{
+    text-align: center;
+  }
+  
+  #menu ul{
+    margin: 0px;
+    list-style: none;
+    border-radius: 10px;
+  }
+  
+  #menu ul li{
+    display: inline;
+  }
+  
+  #menu ul li a{
+    padding: 20px 10px;
+    display: inline-block;
+    color: beige;
+    text-decoration: none;
+  
+  }
+  
+  #menu ul li a:hover{
+    cursor: pointer; 
+  }
+  
+  li{
+    font-size: large;
+  }
+  
+  li a:hover {
+    background-color: #161922;
+    transition: 700ms;
+   
+  }
+
+  #apontando{
+    margin-right: 900px;
+  }
+
+  #int1, #int2, #int3{
+    margin-right: 50px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  #int1:hover, #int2:hover, #int3:hover{
+    color: rgb(48, 172, 131);
+    border: 2px solid rgb(48, 172, 131);
+  }
+
+  @media screen and (min-width: 520px) {
+
+    #hamb {
+      display: none;
+    }
+  
+  }
+
+  @media screen and (max-width:520px){
+
+    #logo{
+      width: 100%;
+    }
+
+  }
+

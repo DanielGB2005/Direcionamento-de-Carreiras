@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+ <html lang= "pt-br">
+   <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+     <link rel = "stylesheet" href = "style/solucao.css">
+     <link rel = "stylesheet" href = "style/logo.css">
+     <script src = "./js/solucao.js"> </script>
+     <script src = "./js/buscador.js">  </script>
+     <script src = "./js/central.js"> </script>
+     <title> soluções </title>
+</head>
+  
+ <body>
+
+  <a name = "secao">   </a>
+
+   <div class = "topo">
+     <a href = "formulario.html"> Login </a> 
+     <a href = "contato.html"> Fale conosco </a> 
+   </div>
+
+    <div id = "primeira">
+      <button id = "acao" onclick = "acaoBT();"> <img id = "hamb" src = "./imgs/iconeMenu.png" alt = "icone" width = "35" height = "30"> </button> 
+       <div id = "inicio"> 
+           <img src = "./imgs/logo.png" id = "logo" onclick = "logoMove();" alt = "logotipo" width = "120" height = "100">
+           <h4 id = "focos"> Educação - Tecnologia - Carreira - Autoconhecimento </h4> 
+         </div>
+     </div>
+
+    <div id = "menu"> 
+      <ul id = "items">
+
+        <li> <a href = "index.html"> Home </a>  </li>
+
+        <li> <a href = "buscador.html"> Encontre mais cursos </a>  </li>
+
+        <li> <a href = "mercado.html"> Mercado de Trabalho </a> </li>
+
+        <li> <a href = "resultado.html">  Ver meu resultado  </a> </li>
+
+        <li> <a href = "sobre.html">  Quem somos? </a> </li>
+
+        <li> <a onclick = "ir();">  Game </a> </li>
+
+       </ul>
+
+     <h2> Interaja com o Matheus, por meio de clicks, para obter mais informação acerca deste website ou acerca do cenário atual do trabalho. </h2>
+       <div id = "apontando"> 
+         <img src = "./imgs/apontando.png" alt = "matheus" width = "200" height = "250">
+       </div>
+
+     <div id = "bts"> 
+         <button id = "int1" onclick = "solucao1();"> Não entendi a proposta do site </input>
+
+         <button id = "int2" onclick = "solucao2();"> Quais são os seus interesses profissionais?  </input>
+
+         <button id = "int3" onclick = "solucao3();"> Como se preparar para as mudanças no mundo do trabalho? </input>
+     </div>
+
+
+    </body>
+
+ </html>
+

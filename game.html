@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style/game.css">
+    <link rel = "stylesheet" href = "style/geral.css">
+    <link rel = "stylesheet" href = "style/logo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <script src = "js/game.js"> </script>
+    <script src = "./js/central.js"> </script>
+    <title> Teste suas habilidades em nosso jogo  </title>
+</head>
+<body>
+
+    <div id = "primeira">
+        <button id = "acao" onclick = "acaoBT();"> <img id = "hamb" src = "./imgs/iconeMenu.png" alt = "icone" width = "35" height = "30"> </button> 
+         <div id = "inicio"> 
+            <img src = "./imgs/logo.png" id = "logo" onclick = "logoMove();" alt = "logotipo" width = "120" height = "100">
+            <h4 id = "focos"> Educação - Tecnologia - Carreira - Autoconhecimento </h4> 
+         </div>
+    </div>
+
+    <div id = "menu"> 
+        <ul id = "items">
+
+        <li> <a href = "index.html"> Home </a>  </li>
+
+        <li> <a href = "buscador.html"> Encontre mais cursos </a>  </li>
+
+        <li> <a href = "mercado.html"> Mercado de Trabalho </a> </li>
+
+        <li> <a href = "resultado.html">  Ver meu resultado  </a> </li>
+
+        <li> <a href = "sobre.html">  Quem somos? </a> </li>
+
+        <li> <a onclick = "ir();">  Game </a> </li>
+
+       </ul>
+     </div>
+
+    <div class = "game-board"> 
+        <img src = "./imgs/pilha.png" alt = "alternativo1" width = "80" height = "80" class = "pilha"> 
+        <img src = "./imgs/matheus.webp" alt = "alternativo2" width = "200" height = "160" class = "matheus">
+    </div>
+    
+</body>
+</html>

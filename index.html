@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+ <html lang= "pt-br">
+   <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+     <link rel = "stylesheet" href = "style/central.css">
+     <link rel = "stylesheet" href = "style/logo.css">
+     <script src = "js/interativo.js"> </script>
+     <script src = "./js/buscador.js">  </script>
+     <script src = "./js/central.js"> </script>
+     <title> Direcionamento de Carreira </title>
+</head>
+
+     <body>
+      
+        <a name = "secao">   </a>
+
+         <div class = "topo">
+              <a href = "formulario.html"> Login </a> 
+              <a href = "contato.html"> Fale conosco </a> 
+         </div>
+        
+         <div id = "primeira">
+             <button id = "acao" onclick = "acaoBT();"> <img id = "hamb" src = "./imgs/iconeMenu.png" alt = "icone" width = "20" height = "10"> </button> 
+              <div id = "inicio"> 
+                 <img src = "./imgs/logo.png" id = "logo" onclick = "logoMove();" alt = "logotipo" width = "120" height = "100">
+                 <h4 id = "focos"> Educação - Tecnologia - Carreira - Autoconhecimento </h4> 
+              </div>
+         </div>
+
+           <div id = "menu"> 
+
+              <ul id = "items"> 
+
+                <li> <a href = "index.html"> Home </a>  </li>
+
+                <li> <a href = "buscador.html"> Encontre mais cursos </a>  </li>
+
+                <li> <a href = "mercado.html"> Mercado de Trabalho </a> </li>
+
+                <li> <a href = "resultado.html">  Ver meu resultado  </a> </li>
+
+                <li> <a href = "sobre.html">  Quem somos? </a> </li>
+
+                <li> <a onclick = "ir();">  Game </a> </li>
+
+
+              </ul>
+            </div>
+                 <br/>
+                 <div id = "recebedora"> </div>
+                 <h1> Seja Bem-vindo à Central de Direcionamento de Carreira (CDC)! </h1>
+                 <p> Aqui na Central, você pode encontrar uma série de cursos que te ajudarão a encontrar a carreira ideal. </p>
+                 <p> Nesta página, disponibilizamos alguns exemplos de cursos gratuitos da web que você pode realizar. Então, cheque abaixo e nas outras sessões desse site as opções que mais te agradarem. </p>
+                 <br>  </br>
+                 <h3> Em uma sociedade com tantas opções de trabalho, qual deve ser a melhor para mim? </h3>
+                 <div> 
+                   <img src = "imgs/carreiras.jpg" id = "imgCarreiras" alt = "houve um problema que negou o acesso a esse arquivo!" width = "480" height = "300">
+                 </div>
+
+                 <p> Foi refletindo nessa pergunta, que entendemos não ser uma escolha fácil decidir uma carreira ou um trabalho para se seguir. Principalmente, quando percebe-se o tanto de fatores que podem influenciar nessa tomada de decisão como, por exemplo: As condições socioeconômicas do indivíduo, sua história, a elevada quantidade de profissões possíveis no mundo atual, entre outros. </p>
+
+                 <p> Sendo assim, separamos cursos diversos nesse website para que o usuário os conhecesse e pudesse desenvolver uma noção sobre qual área do conhecimento o atrai ou pode lhe interessar. Destacamos que uma vez que os cursos não possuem um custo financeiro, existe a possibilidade de qualquer um os experimentar e checar o tipo de conhecimento essencial a cada um deles. Portanto, comece a descobrir novas oportunidades!</p>
+
+                 <h1> Quais cursos online e gratuitos posso fazer? </h1>
+        
+                 <p> Cheque os cartões abaixo para obter essa informação: </p>
+
+
+                 <main class = "cards">
+                  <section class= "card contact">
+                      <div class= "icon">
+                          <img src= "./imgs/senado.jpg" alt="SABERES SENADO">
+                      </div>
+                      <h3> SABERES SENADO </h3>
+                      <span> Plataforma do próprio senado federal que disponibiliza cursos inteiramente ligados às leis, direito e público. Acesso em <a href = "https://saberes.senado.leg.br/course/index.php" rel = "external" target = "_blank" > SABERES SENADO </a>
+                     </span>
+                      <button>Learn More</button>
+                  </section>
+                  <section class = "card shop">
+                      <div class = "icon">
+                          <img src = "./imgs/lumina.jpg" alt= "LÚMINA | UFRGS">
+                      </div>
+                      <h3> LÚMINA | UFRGS  </h3>
+                      <span> Tem uma ampla quantidade de cursos divididos por áreas como arte, humanas, exatas, saúde etc. Acesso em <a href = "https://lumina.ufrgs.br/course/index.php" rel = "external" target = "_blank"> LÚMINA </a> </span>
+                      <button>Learn More</button>
+                  </section>
+                  <section class="card about">
+                      <div class="icon">
+                          <img src="./imgs/gyn.jpg" alt= "GYN CURSOS">
+                      </div>
+                      <h3> GYN CURSOS </h3>
+                      <span> Cursos diversos que abrangem áreas diversas, como hotelaria, artes, e até religião. Acesso em <a href = "https://lumina.ufrgs.br/course/index.php" rel = "external" target = "_blank"> GYN CURSOS </a> </span>
+                      <button>Learn More</button>
+                  </section>
+              </main>
+
+              <main class = "cards">
+                <section class="card contact">
+                    <div class="icon">
+                        <img src="./imgs/sebrae.jpg" alt = "SEBRAE">
+                    </div>
+                    <h3> SEBRAE </h3>
+                    <span>
+                         Cursos online mais voltados para empreendedorismo, mercado e vendas, etc.
+                         acesso em <a href = "https://www.sebrae.com.br/sites/PortalSebrae/cursosonline" rel = "external" target = "_blank"> curso SEBRAE </a>
+                    </span>
+                    <button>Learn More</button>
+                </section>
+                <section class="card shop">
+                    <div class="icon">
+                        <img src="./imgs/googleactive.jpg" alt= "GOOGLE ACTIVE">
+                    </div>
+                    <h3> GOOGLE ACTIVE </h3>
+                    <span> Cursos voltados para seu próprio negócio, mercado de trabalho etc.. Tem 11 cursos com certificado gratuito. Acesso em <a href = "https://learndigital.withgoogle.com/activate/courses" rel = "external" target = "_blank"> GOOGLE ACTIVE </a></span>
+                    <button>Learn More</button>
+                </section>
+                <section class="card about">
+                    <div class="icon">
+                        <img src="./imgs/coursera.jpg" alt= "COURSERA">
+                    </div>
+                    <h3> COURSERA </h3>
+                    <span> Com certificado também, esse site permite completar cursos de várias áreas, como marketing, jornalismo (até de esportes), gastronomia, etc. Acesso em <a href = "https://www.coursera.org/courses?query=free" rel = "external" target = "_blank"> COURSERA </a>
+                    </span>
+                    <button>Learn More</button>
+                </section>
+            </main>
+        
+                 <p> </p>
+          
+                 <p> </p>
+
+                 <h2>  </h2>
+
+                 <div id = "personagem"> 
+                  <h3> Houve algum problema ao longo de sua navegação? Ficou com dúvidas sobre algo? </h3>
+                  <h3> Clique no Estudante </h3>
+                 <img id="interativo" onmouseover = "distorcer();" onmouseout = "voltar();" onclick = "conduzir();" src = "imgs/interativo.png" alt = "interativo" width = "200" height = "250" >
+               </div> 
+       
+        
+                 <div id = "lk"> 
+                    <button id = "retornar"> <a href = #secao> Voltar ao início da página </a> </button>
+                  </div>
+                 <br>   </br>
+                 <hr>    </hr>
+                 </body>
+
+</html>
